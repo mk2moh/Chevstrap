@@ -60,9 +60,9 @@ public class LaunchHandler {
 
         if (rbxIsLibFolderExisted()) {
             new Handler(Looper.getMainLooper()).post(() ->
-                    Toast.makeText(context, "Your Roblox may have been modified", Toast.LENGTH_LONG).show()
+                    Toast.makeText(context, "Your Roblox may have been modified, continuing anyway.", Toast.LENGTH_LONG).show()
             );
-            isCancelled = true;
+            isCancelled = false;
             return;
         }
 
