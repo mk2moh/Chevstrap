@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.chevstrap.rbx"
+    namespace = "com.antichevstrap.rbx"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.chevstrap.rbx"
+        applicationId = "com.antichevstrap.rbx"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
